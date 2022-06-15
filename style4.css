@@ -1,0 +1,44 @@
+body{
+    background-image:url('https://www.financialexpress.com/wp-content/uploads/2021/09/Kerala-Tourism.jpg');
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:100% 100%;
+    background-color: rgba(255,255,255,0.6);
+    background-blend-mode: lighten;
+    
+    }
+   .logo img{
+      position:absolute;
+      margin-top:3px;
+      margin-left:3px;
+   }
+
+   li a:hover {
+    background-color: rgb(245, 202, 202);
+  }
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FC46AA;
+  }
+  
+  li {
+    float: right;
+  }
+  nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: none;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }

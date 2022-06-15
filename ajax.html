@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Planner</title>
+    <link rel="stylesheet" href="ajax.css">
+    <script defer src="ajax.js"></script>
+</head>
+<body>
+    <p id="status">TOTAL EXPENSE FOR HOTEL: 15000   10000 5000</p>
+    <button onclick="loadDoc()">update Status</button>
+    <table>
+        <tr>
+            <th>OVERALL BUDGET</th>
+            <th>COST OF HOTEL (after discount)</th>
+            <th>REMAIN</th>
+        </tr>
+        <tr>
+            <td id="budget">15000</td>
+            <td id="cost">10000</td>
+            <td id="remain">5000</td>
+        </tr>
+    </table>
+</body>
+</html>

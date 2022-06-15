@@ -1,0 +1,123 @@
+body{
+  background-image:url('https://www.keralatourism.org/images/service-providers/photos/property-4863-profile-24878-20201007051007.jpg');
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size:100% 100%;
+  background-color: rgba(255,255,255,0.6);
+  background-blend-mode: lighten;
+  
+  }
+  
+  form {
+  margin: 80px 60px 400px 850px;
+  width: 400px;
+  height:300px;
+  padding: 20px;
+  position: absolute;
+  }
+  
+  label{
+  color: white;
+  }
+  
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #FC46AA;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  <!--
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  -->
+  
+  .container {
+    padding: 10px;
+    background-color: rgba(0,0,0,0.5);
+  
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  .nav .icon {
+    display: none;
+  }
+
+  .logo img{
+    position:absolute;
+    margin-top:3px;
+    margin-left:3px;
+ }
+ 
+ .imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+img.avatar {
+  width: 20%;
+  border-radius:100%;
+}
+
+li a:hover {
+  background-color: #111;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FC46AA;
+}
+
+li {
+  float: right;
+}
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 30px 30px;
+  text-decoration: none;
+}
+
+.login-text {
+  position: absolute;
+  top: 220px;
+  left: 100px;
+  
+}
+.login-text h1{
+  font-size: 40px;
+  
+}
+
+.login-text h2{
+  font-size: 20px;
+  color:#FC46AA;
+  font-weight:2000;
+  
+}

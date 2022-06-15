@@ -1,0 +1,66 @@
+<!Doctype html>
+<html>
+<head>
+<title> LOGIN PAGE </title>
+<link rel="stylesheet" href="bookstyle.css">
+<script type="text/javascript" src="book.js"></script>
+</head>
+<body>
+<!--<div id="container"> 
+    <div"><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzisx_IhSQhA857X0bo1AEPwbLoHfyUWEiOA&usqp=CAU'>  </img></div> 
+    <div style="background-color:#08ebb2;">two</div> 
+    <div style="background-color:#dd2289;">three</div> 
+    <div style="background-color:#fcff66;">four</div>     
+</div>
+  --> 
+  
+ 
+  <form action="reservation.php"  method="post">
+    <div class="elem-group">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" onfocus="focusevent1()" onblur="blurevent1()" name="visitor_name" placeholder="Enter your name" pattern=[A-Z\sa-z]{3,20} required>
+    </div>
+    <div class="elem-group">
+      <label for="email">Your E-mail</label>
+      <input type="email" id="email" onfocus="focusevent2()" name="visitor_email" placeholder="example@student.tce.edu" required>
+    </div>
+    <div class="elem-group">
+      <label for="phone">Your Phone</label>
+      <input type="tel" id="phone" name="visitor_phone" placeholder="632-328-3272" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+    </div>
+    <hr>
+    <div class="elem-group inlined">
+      <label for="adult">Adults</label>
+      <input type="number" id="adult" name="total_adults" placeholder="2" min="1" required>
+    </div>
+    <div class="elem-group inlined">
+      <label for="child">Children</label>
+      <input type="number" id="child" name="total_children" placeholder="2" min="0" required>
+    </div>
+    <div class="elem-group inlined">
+      <label for="checkin-date">Check-in Date</label>
+      <input type="date" id="checkin-date" name="checkin" required>
+    </div>
+    <div class="elem-group inlined">
+      <label for="checkout-date">Check-out Date</label>
+      <input type="date" id="checkout-date" name="checkout" required>
+    </div>
+    <div class="elem-group">
+      <label for="room-selection">Select Room Preference</label>
+      <select id="room-selection" name="room_preference" required>
+          <option value="">Choose a Room from the List</option>
+          <option value="connecting">Connecting</option>
+          <option value="adjoining">Adjoining</option>
+          <option value="adjacent">Adjacent</option>
+      </select>
+    </div>
+    <hr>
+    <div class="elem-group">
+      <label for="message">Anything Else?</label>
+      <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important." required></textarea>
+    </div>
+    <button type="submit" onclick="myFunction()">Book The Rooms</button>
+  </form>
+
+
+</body>

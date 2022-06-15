@@ -1,0 +1,42 @@
+<!Doctype html>
+<html>
+<head>
+<title> LOGIN PAGE </title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- <div class="topnav" id="myTopnav">
+	<a href="#home" class="active">Home</a>
+	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+	  <i class="fa fa-bars"></i>
+	</a>
+  </div> -->
+  <section id="header">    
+	<div class="logo"><a href="#"><img src="logo1.jpg"  width="150" height="70"></a></div>
+	<nav> 
+			   
+	  <ul>             
+		<li><a href="#about">ABOUT US</a></li>   
+		<li><a href="home.html">HOME</a></li>      
+	  </ul>
+	</nav>          
+</section>
+
+<div class="login-text"><h1>WELCOME TO CULTURAL ABODE<br><h2><pre>                  WITH MINI WALLET     </pre></h2></h1></div>
+<form method="POST" action="payment_store.jsp">
+
+	<div class="container">
+		<label for="uname"><b>Username</b></label>
+    		<input type="text" placeholder="Enter Username" name="uname" required>
+
+    		<label for="psw"><b>Password</b></label>
+   		 <input type="password" placeholder="Enter Password" name="psw" required>
+        
+   		 <button type="submit"><a href="home.html" style="text-decoration: none">Login</a></button>
+    		<label>
+      			<input type="checkbox" checked="checked" name="remember"> Remember me
+   		</label>
+  	</div>
+</form>
+</body>
+</html>
